@@ -9,7 +9,6 @@ const SectionGroup = styled.div`
   display:grid;
   grid-template-rows: 300px auto;
   grid-gap: 20px;
-
   position: relative;
 `
 
