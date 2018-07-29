@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import Card from '../components/Card'
+import Footer from '../components/Footer'
 import Section from '../components/Section'
 import Wave from '../components/Wave'
 import staticdata from '../../staticdata.json'
@@ -85,8 +86,8 @@ const IndexPage = () => (
     <Section
       image={require('../images/wallpaper2.jpg')}
       logo={require('../images/logo-react.png')}
-      title="React for Designers"
-      text="Learn how to build a modern site using React."
+      title="Making Website with React"
+      text="Learn how to build a modern site using React. "
     />
 
     <SectionCaption>12 sections - 6 hours</SectionCaption>
@@ -96,7 +97,9 @@ const IndexPage = () => (
       ))}
     </SectionCellGroup>
       
-    <p>Hello, this is the footer</p>
+    <Footer>
+      Site in React. © 2018
+    </Footer>
   
   </div>
 )
