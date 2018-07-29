@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/hijazi/reactjs/designcode-web/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/hijazi/reactjs/designcode-web/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "989b5c4786530781152f4ef105c0330d",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -280,7 +270,7 @@
       "resolve": "/Users/hijazi/reactjs/designcode-web",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a77c4ad8ddfd7c099694aea8fa852ba5",
+      "version": "7c8377e21e021c70ea4ab5edf0d48808",
       "pluginOptions": {
         "plugins": []
       },
@@ -313,6 +303,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.3.3"
           }
         ],
         "devDependencies": [
@@ -328,7 +322,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "723974b39a956a52167e46cd490a3490",
+        "contentDigest": "f155ceb59b684b1caaf1d4a5b1579f26",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -414,16 +408,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "DevCon React"
+        "title": "DevCon React",
+        "description": "Welcome to the world of tech community. The magic people keeps you in the know about the things you care about. Find quick answers, explore your interests, and get personalized updates in your hand.",
+        "keywords": "app, mobile app, swift, devcon"
       },
-      "port": "8000",
-      "host": "localhost",
-      "buildTime": "2018-07-28T05:54:53.838Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-07-29T16:59:56.256Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bbca46fb09ab08052b93f97a71fa9fd1",
+        "contentDigest": "6a27d1909851b0e166588024d3f279fe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -444,7 +440,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6f6b2890d4fc3d5710c6e88e6ec20867",
+        "contentDigest": "95360909cbc6d1d2eeb32cd1c75f7375",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -465,7 +461,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5eff72beca426f477130c711d6b50236",
+        "contentDigest": "b2e6da0671604d3f2bcc42e95eaabe6e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -486,7 +482,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "32700716c211884084dcdc9424d4b2db",
+        "contentDigest": "6cff8c55209e23fe6cf2f881972be9a9",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -494,12 +490,13 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "673643eb1ce4b27a13383d8dd93b20b9"
+    "PLUGINS_HASH": "c3f3348409780a8de17ec476dfaabbe7"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "LAYOUT___index"
+        "LAYOUT___index",
+        "/"
       ]
     },
     "connections": {

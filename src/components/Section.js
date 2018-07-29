@@ -28,6 +28,7 @@ const SectionTitleGroup = styled.div`
   grid-template-rows: auto 100%;
 
   @media (max-width: 720px) {
+
     grid-template-columns: 1fr;
 
   }
@@ -39,6 +40,10 @@ const SectionTitle = styled.h3`
   font-size: 60px;
   margin: 0;
   line-height:1.2;
+
+  @media (max-width: 720px) {
+    font-size: 40px;
+  }
 
 `
 
