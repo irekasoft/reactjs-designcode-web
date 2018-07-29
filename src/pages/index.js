@@ -87,7 +87,6 @@ const IndexPage = () => (
       logo={require('../images/logo-react.png')}
       title="React for Designers"
       text="Learn how to build a modern site using React."
-
     />
 
     <SectionCaption>12 sections - 6 hours</SectionCaption>
@@ -96,7 +95,8 @@ const IndexPage = () => (
         <Cell title={cell.title} image={cell.image} />
       ))}
     </SectionCellGroup>
-    
+      
+    <p>Hello, this is the footer</p>
   
   </div>
 )

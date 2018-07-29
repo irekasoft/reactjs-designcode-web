@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/hijazi/reactjs/designcode-web/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/hijazi/reactjs/designcode-web/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "5b6fadbc1fd725e9440485c00ff632e5",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -412,14 +422,16 @@
         "description": "Welcome to the world of tech community. The magic people keeps you in the know about the things you care about. Find quick answers, explore your interests, and get personalized updates in your hand.",
         "keywords": "app, mobile app, swift, devcon"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-29T16:59:56.256Z",
+      "buildTime": "2018-07-29T17:07:01.347Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6a27d1909851b0e166588024d3f279fe",
+        "contentDigest": "6f4a0d84e89a71b4bbe025cb7d96b791",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -440,7 +452,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "95360909cbc6d1d2eeb32cd1c75f7375",
+        "contentDigest": "88d622ec975ee175d785788ecd4f9e20",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -461,7 +473,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b2e6da0671604d3f2bcc42e95eaabe6e",
+        "contentDigest": "7e6f970df2344af2803e9773f36fdf9a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -482,7 +494,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6cff8c55209e23fe6cf2f881972be9a9",
+        "contentDigest": "552182c32606cdea676ff49fc8521a84",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
